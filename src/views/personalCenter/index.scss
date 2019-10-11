@@ -1,0 +1,68 @@
+.personalCenter {
+    margin: 0 auto;
+    width: 1200px;
+}
+.preson-table-listBox {
+    background: #fff;
+    border-top: 1px solid #eee;
+    padding: 30px;
+  }
+
+.tableTitle {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    height: 20px;
+  
+    .title {
+      position: absolute;
+      left: 10px;
+      font-size: 14px;
+      font-family: PingFangSC;
+      font-weight: 600;
+      color: rgba(241, 49, 49, 1);
+      line-height: 20px;
+      &::before {
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        width: 4px;
+        height: 16px;
+        margin-right: 4px;
+        background: rgba(251, 52, 52, 1);
+        border-radius: 3px;
+      }
+    }
+    .time {
+      position: absolute;
+      right: 0;
+      font-size: 12px;
+      font-family: PingFangSC;
+      font-weight: 500;
+      color: rgba(102, 102, 102, 1);
+      line-height: 17px;
+    }
+  }
+
+  .linkClass {
+    color: rgb(64, 158, 255);
+    display: block;
+    width: 140px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .CarouselCover{
+    height: 340px;
+    width: 540px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #666;
+  }
+
+  .CarouselImg {
+    height: 300px;
+    width: 500px;
+    object-fit: contain;
+  }
